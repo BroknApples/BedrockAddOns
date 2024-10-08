@@ -1,3 +1,4 @@
+All Files in "bedrock-samples-1.21.30.3" belong to Mojang and Microsoft
 --------------------------------------------------------------------------------------------------------
 SimpleVanillaTweaks
 --------------------------------------------------------------------------------------------------------
@@ -129,8 +130,6 @@ Bird Viewing Book or checklist thing maybe in villagers, each bird might give yo
 you touch them with a certain item or lure them in Birds drop claws that are used in something, super rare bird claws can be combined with something for a cool potion effect:
 -----------
 -----------
-
-
 
 --------------------------------------------------------------------------------------------------------
 END SIMPLE VANILLA TWEAKS

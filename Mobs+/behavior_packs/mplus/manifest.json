@@ -1,0 +1,68 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Mobs+",
+    "description": "Adds a variety of new mobs and tweaks a few existing mob behaviors!",
+    "uuid": "9d6d38dd-7158-4e71-a7d8-e7e94efea6ea",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      30
+    ]
+  },
+  "modules": [
+    {
+      "description": "Behavior",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "uuid": "5f16a297-ce98-4707-8ce0-234ae9a2816a",
+      "type": "data"
+    },
+    {
+      "description": "Script resources",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "b8698094-020b-4d1f-9e4b-3656cb709b49",
+      "version": [
+        0,
+        0,
+        1
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "9d6dad89-6e29-46ba-83d5-490a4901caef",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": [
+        1,
+        14,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": [
+        1,
+        3,
+        0
+      ]
+    }
+  ]
+}

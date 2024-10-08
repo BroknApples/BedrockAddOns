@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:beetroot_soup",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+
+    "components": {
+      "minecraft:hand_equipped": true,
+        "minecraft:display_name": {
+          "value": "Beetroot Soup"
+      },
+      "minecraft:icon": "beetroot_soup",
+      "minecraft:max_stack_size": 16,
+      "minecraft:food": {
+        "nutrition": 8,
+        "saturation_modifier": 0.15
+      },
+      "minecraft:use_modifiers": {
+        "use_duration": 2.4,
+        "movement_modifier": 0.5
+      }
+    }
+  }
+}

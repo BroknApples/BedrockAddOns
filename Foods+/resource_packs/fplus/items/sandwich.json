@@ -1,0 +1,12 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "foodplus:sandwich",
+      "category": "nature"
+    },
+    "components": {
+      "minecraft:icon": "foodplus_sandwich"
+    }
+  }
+}

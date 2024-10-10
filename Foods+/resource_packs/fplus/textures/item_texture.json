@@ -6,6 +6,24 @@
   "texture_data": {
     "foodplus_cheese": {
       "textures": "textures/items/cheese"
+    },
+    "foodplus_cheeseburger": {
+      "textures": "textures/items/cheeseburger"
+    },
+    "foodplus_butter": {
+      "textures": "textures/items/butter"
+    },
+    "foodplus_hotdog": {
+      "textures": "textures/items/hotdog"
+    },
+    "foodplus_lettuce": {
+      "textures": "textures/items/lettuce"
+    },
+    "foodplus_sandwich": {
+      "textures": "textures/items/cheese"
+    },
+    "foodplus_tomato": {
+      "textures": "textures/items/tomato"
     }
   }
 }   

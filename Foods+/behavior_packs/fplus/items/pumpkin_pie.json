@@ -8,7 +8,7 @@
     "components": {
       "minecraft:use_duration": 42,
       "minecraft:food": {
-        "nutrition": 8,
+        "nutrition": 4,
         "saturation_modifier": "low"
       }
     }

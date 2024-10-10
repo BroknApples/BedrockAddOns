@@ -150,7 +150,7 @@ Ex:
   Mushroom Stew-
     Stack Size: 1 -> 16
 
-NEW FOOD
+NEW FOOD!
 -----------
 
 Meals:
@@ -175,6 +175,9 @@ Chicken Pasta
   Recipe:
     Cooked Chicken & 2x Pasta & 2x Tomato
 
+Beef or Chicken Tacos:
+  Recipe Cooked Beeft or Cooked Chicken & 1x lettuce & 1x cheese & 2x wheat & 1x egg
+
 Pizza
   Recipe:
     1x Cheese & 1x Wheat & 1x Tomato & 1x Cooked Beef or Cooked Porkchop
@@ -191,17 +194,43 @@ Egg Roll
   Recipe:
     1x Egg & 3x Wheat & 1x carrot & 1x Cooked Porkchop
 
+Omlette:
+  Recipe:
+    4x egg & 2x any cooked meat
+
 Salad
   Recipe:
     2x Lettuce 1x Wheat & 1x Tomato & 1x Cheese
 
 Apple Pie
   Recipe:
-    1x sugar & 2x Wheat & 1x apple & 1x egg
+    1x sugar & 1x Wheat & 1x apple & 1x egg
+
+Sweet Potato Pie
+  Recipe:
+    1x sugar & 1x Wheat & 1x apple & 1x egg
 
 Pancakes
   Recipe:
     2x Wheat & 1x Eggs & 2x sugar
+  
+-- desserts
+
+Ice Cream:
+  Recipe:
+    2x Cream & x Sugar & 1x Cocoa Beans
+  
+Donut:
+
+Macaron
+
+Cream Puff
+
+-- ingredient todo:
+
+Cream
+  Recipe:
+    1x milk & 1x bowl = 4 cream
 --- END TODO
 
 Cheese

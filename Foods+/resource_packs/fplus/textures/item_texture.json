@@ -1,0 +1,11 @@
+{
+  "resource_pack_name": "Food+",
+  "texture_name": "atlas.items",
+
+  // Food
+  "texture_data": {
+    "foodplus_cheese": {
+      "textures": "textures/items/cheese"
+    }
+  }
+}   

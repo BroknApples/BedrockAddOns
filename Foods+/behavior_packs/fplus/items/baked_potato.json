@@ -1,37 +1,16 @@
 {
-  "format_version": "1.20.50",
+  "format_version": "1.10",
   "minecraft:item": {
     "description": {
-      "identifier": "minecraft:baked_potato",
-      "menu_category": {
-        "category": "equipment"
-      }
+      "identifier": "minecraft:baked_potato"
     },
 
     "components": {
-      "minecraft:display_name": {
-        "value": "Baked Potato"
-      },
-      "minecraft:tags": {
-        "tags": [
-          "minecraft:is_cooked"
-        ]
-      },
-      "minecraft:icon": {
-        "textures": {"default": "baked_potato"}
-      },
-      "minecraft:should_despawn": true,
-      "minecraft:max_stack_size": 64,
+      "minecraft:use_duration": 32,
       "minecraft:food": {
         "nutrition": 4,
-        "saturation_modifier": 0.25,
-        "can_always_eat": false
-      },
-      "minecraft:use_modifiers": {
-        "use_duration": 1.6,
-        "movement_modifier": 0.5
-      },
-      "minecraft:use_animation": "eat"
+        "saturation_modifier": "normal"
+      }
     }
   }
 }

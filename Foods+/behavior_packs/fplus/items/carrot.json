@@ -2,14 +2,18 @@
   "format_version": "1.10",
   "minecraft:item": {
     "description": {
-      "identifier": "minecraft:beetroot"
+      "identifier": "minecraft:carrot"
     },
 
     "components": {
       "minecraft:use_duration": 18,
+
       "minecraft:food": {
         "nutrition": 1,
         "saturation_modifier": "normal"
+      },
+      "minecraft:seed": {
+        "crop_result": "carrots"
       }
     }
   }

@@ -2,14 +2,14 @@
   "format_version": "1.10",
   "minecraft:item": {
     "description": {
-      "identifier": "minecraft:beetroot"
+      "identifier": "minecraft:pumpkin_pie"
     },
 
     "components": {
-      "minecraft:use_duration": 18,
+      "minecraft:use_duration": 42,
       "minecraft:food": {
-        "nutrition": 1,
-        "saturation_modifier": "normal"
+        "nutrition": 8,
+        "saturation_modifier": "low"
       }
     }
   }

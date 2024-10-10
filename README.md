@@ -1,68 +1,37 @@
-All Files in "bedrock-samples-1.21.30.3" belong to Mojang and Microsoft
---------------------------------------------------------------------------------------------------------
-VanillaTweaks for fishing change + other small changes
-More Food for all new food types and maybe a few new crops
-More Animals for new birds, fish, and other animals
+TODO: Add Weapons add-on
+
+IDEAS: See Bottom for Add-Ons Info
 
 ND = Not Done
 D = Done
 --------------------------------------------------------------------------------------------------------
-Make more Add-ons for different things, but this pack is for basic things like fishing tweaks, food tweaks,
-enemy armor + damage tweaks as a progression system
-
-Change food values, and add new food including seeds and meat from more animals(deer, lettuce, etc.)
-
-Add item data such as durability and saturation & hunger fill
-
 FOOD
 -----------------------------------------------
+-----------
+Blender --- functional
+cutting board (wrapper on an item frame)
+kitchen knife = always has looting on it or something
+placeable bowls and plates (cant put food on them probably, but try to make it happen!)
+-----------
 Use Duration Levels Based on Nutrition (Based in halves of the vanilla speed to keep existing sound more consistent):
 -----------
-1-3: 0.8s
-4-6: 1.6s
-7-10: 2.4s
-11+: 3.2s
+1-3: 0.9s                   |    18
+4-6: 1.6s                   |    32
+7-10: 2.1s                  |    42
+11+: 2.8s                   |    56
 Exception: Snack items that restore lots of hunger for hp, but no saturation
+Movement Modifier: 0.35
 -----------
 Saturation based on types:
 -----------
-Raw meat: 0.5
-Raw veggies: 1 
-Cooked meat 0.35
-Veggie stews: 0.25
-Meat stews: 0.25
-Meat + Veggie Foods: 0.5
-Bread like foods: 1
+Raw meat: 0.6 | raw fish & rabbit 0.3 = small  
+Raw veggies: 0.6          |   poor         0.1
+Cooked meat 0.6          |   low          0.3
+Veggie stews: 0.6        |   normal       0.6
+Meat stews: 0.8          |   good         0.8
+Full cooked meals: 0.8    |   max          1.0
+Bread like foods: 8       |   supernatural 1.4
 -----------
-Food To Add:
------------
-ND - Beef Burger
-ND - Chicken Sandwich
-ND - Cheese
-ND - lettuce
-ND - tomato
-ND - spaghetti
-ND - Hot Dog (3 Any cooked meat type & 2 bread & pickle & cheese, etc.)
------------
-Food To Modify:
------------
-D - baked_potato
-D - beetroot soup
-ND - beetroot
-ND - bread
-ND - breeze_rod
-ND - carrot
-ND - cooked Beef
-ND - cooked Chicken
-ND - cooked fish
-ND - cooked porkchop
-ND - cooked rabbit
-ND - cookie
-ND - mushroom stew
-ND - mutton cooked
-ND - baked_potato
-ND - pumpkin pie
-ND - rabbit stew
 ----------------------------------------------------------
 MOBS
 ----------------------------------------------------------
@@ -105,6 +74,7 @@ Fish - Put rarities and biome based spawning and stuff (Placeable fishing trophy
 ND -   Bass
 ND -   Catfish
 -----------
+
 Existing Friendly/Neutral Mob Tweaks TODO:
 -----------
 ND - Polar Bears almost always aggressive and move a lot faster
@@ -123,6 +93,7 @@ MISC
 ----------------------------------------------------------
 Item Tooltips TODO:
 -----------
+Add item data such as durability and saturation & hunger fill
 -----------
 Fishing Tweaks:
 -----------
@@ -147,7 +118,104 @@ you touch them with a certain item or lure them in Birds drop claws that are use
 -----------
 Tool that gives you options for each and every small thing in the pack
 (turn on/off new animal spawns, turn on/off/different types of mob progression, etc.)
+-----------
+Bark given when skinning tree
+--------------------------------------------------------------------------------------------------------
 
---------------------------------------------------------------------------------------------------------
-END SIMPLE VANILLA TWEAKS
---------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+Foods+ Additions - WIP
+----------------
+Food Eat time based on Nutrition Value
+1-3: 0.9s
+4-6: 1.6s
+7-10: 2.1s
+11+: 2.8s
+
+Rebalanced most vanilla Food Items:
+Ex:
+  Cooked Beef-
+    Nutrition: 8 -> 6
+    Saturation: 12.8 -> 7.2
+  
+  Carrot-
+    Nutrition 3 -> 1
+    Saturation 3.6 -> 1.2
+
+  Mushroom Stew-
+    Stack Size: 1 -> 16
+
+NEW FOOD
+-----------
+
+Meals:
+Hotdog
+  Recipe:
+    Cooked Porkchop or Cooked Beef & 2x bread & cheese
+
+Cheeseburger
+  Recipe:
+    Cooked Beef & 2x bread & cheese & tomato & lettuce
+
+Sandwich
+  Recipe:
+    Cooked Chicken & 2x bread & cheese & lettuce
+
+Spaghetti & Meatballs
+  Recipe:
+    Cooked Beef & 2x Pasta & 2x Tomato
+
+--- START TODO
+Chicken Pasta 
+  Recipe:
+    Cooked Chicken & 2x Pasta & 2x Tomato
+
+Pizza
+  Recipe:
+    1x Cheese & 1x Wheat & 1x Tomato & 1x Cooked Beef or Cooked Porkchop
+
+Mutton Stew
+  Recipe:
+    Carrot & Cooked Mutton & Potato & Bowl
+
+Fried Eggs
+  Recipe:
+    2x Eggs & butter
+
+Egg Roll
+  Recipe:
+    1x Egg & 3x Wheat & 1x carrot & 1x Cooked Porkchop
+
+Salad
+  Recipe:
+    2x Lettuce 1x Wheat & 1x Tomato & 1x Cheese
+
+Apple Pie
+  Recipe:
+    1x sugar & 2x Wheat & 1x apple & 1x egg
+
+Pancakes
+  Recipe:
+    2x Wheat & 1x Eggs & 2x sugar
+--- END TODO
+
+Cheese
+  Recipe:
+    1x Milk & 1 Mushroom or Fungus = 4 cheese
+
+Butter
+  Recipe:
+    2x Milk = 3 butter
+
+Pasta
+  Recipe:
+    3x Wheat & 1 Egg = 1 pasta
+
+Lettuce - New Crop!
+
+Tomato - New Crop!

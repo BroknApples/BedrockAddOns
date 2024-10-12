@@ -170,14 +170,17 @@ Spaghetti & Meatballs
   Recipe:
     Cooked Beef & 2x Pasta & 2x Tomato
 
---- START TODO
 Chicken Pasta 
   Recipe:
     Cooked Chicken & 2x Pasta & 2x Tomato
 
+Mac n' Cheese
+  Recipe:
+    1x Cheese 2x pasta
+
 Beef or Chicken Tacos:
   Recipe Cooked Beeft or Cooked Chicken & 1x lettuce & 1x cheese & 2x wheat & 1x egg
-
+--- START TODO
 Pizza
   Recipe:
     1x Cheese & 1x Wheat & 1x Tomato & 1x Cooked Beef or Cooked Porkchop
@@ -225,13 +228,13 @@ Donut:
 Macaron
 
 Cream Puff
+--- END TODO
 
--- ingredient todo:
 
 Cream
   Recipe:
     1x milk & 1x bowl = 4 cream
---- END TODO
+
 
 Cheese
   Recipe:
@@ -248,3 +251,23 @@ Pasta
 Lettuce - New Crop!
 
 Tomato - New Crop!
+
+
+Exotic Foods
+
+Chorus Fruit Soup
+  Special Effect: Gives you Nausea for 3 secs, but also resistance I and regeneration I for 3 secs
+  Recipe:
+    3x Chorus Fruit & 1x bowl
+
+Spicy Fungus Stew
+  Special Effect: Fire Resistance for 30 seconds, but poison for 5 seconds
+  Recipe:
+    1x Crimson Fungus & 1x Warped Fungus & 1x bowl
+  
+Glow Berry Stew
+  Special Effect: Night Vision for 30 Seconds, but slowness for 15 seconds
+  Recipe:
+    3x Glow Berry & 1x bowl
+
+Food From New Animals:

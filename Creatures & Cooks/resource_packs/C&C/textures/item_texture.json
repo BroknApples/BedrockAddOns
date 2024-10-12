@@ -1,0 +1,41 @@
+{
+  "resource_pack_name": "Creatures & Cooks",
+  "texture_name": "atlas.items",
+
+  // ******************** Food ******************** //
+  "texture_data": {
+    "cnc_butter": {
+      "textures": "textures/items/butter"
+    },
+    "cnc_cheese": {
+      "textures": "textures/items/cheese"
+    },
+    "cnc_cheeseburger": {
+      "textures": "textures/items/cheeseburger"
+    },
+    "cnc_chicken_pasta": {
+      "textures": "textures/items/chicken_pasta"
+    },
+    "cnc_cream": {
+      "textures": "textures/items/cream"
+    },
+    "cnc_hotdog": {
+      "textures": "textures/items/hotdog"
+    },
+    "cnc_lettuce": {
+      "textures": "textures/items/lettuce"
+    },
+    "cnc_mac_n_cheese": {
+      "textures": "textures/items/mac_n_cheese"
+    },
+    "cnc_sandwich": {
+      "textures": "textures/items/cheese"
+    },
+    "cnc_taco": {
+      "textures": "textures/items/taco"
+    },
+    "cnc_tomato": {
+      "textures": "textures/items/tomato"
+    }
+  }
+}   

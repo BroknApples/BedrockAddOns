@@ -1,0 +1,35 @@
+{
+  "format_version": "1.17.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cnc:cheeseburger_rec_1"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " BL",
+      " PC",
+      " BT"
+    ], 
+    
+    "key": {
+      "P": {
+        "item": "minecraft:cooked_beef"
+      },
+      "B": {
+        "item": "minecraft:bread"
+      },
+      "C": {
+        "item": "cnc:cheese"
+      },
+      "T": {
+        "item": "cnc:tomato"
+      },
+      "L": {
+        "item": "cnc:lettuce"
+      }
+    },
+    "result": [
+      { "item": "cnc:cheeseburger", "count": 1 }
+    ]
+  }
+}

@@ -2,7 +2,7 @@
   "format_version": "1.16",
   "minecraft:recipe_shapeless": {
     "description": {
-      "identifier": "cnc:cheese_rec_4"
+      "identifier": "cnc:butter_rec_1"
     },
 
     
@@ -10,16 +10,13 @@
     "ingredients": [
       {
         "item": "minecraft:bucket",
+        "count": 2,
         "data": 1
-      },
-      {
-        "item": "minecraft:warped_fungus",
-        "count": 1
       }
     ],
     "result": [
-      { "item": "cnc:cheese", "count": 3 },
-      { "item": "minecraft:bucket", "count": 1, "data": 0 }
+      { "item": "cnc:butter", "count": 3 },
+      { "item": "minecraft:bucket", "count": 2, "data": 0 }
     ]
   }
 }

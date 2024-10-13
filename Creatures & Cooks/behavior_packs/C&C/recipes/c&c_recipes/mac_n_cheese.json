@@ -1,0 +1,28 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "cnc:mac_n_cheese_rec_1"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "cnc:cheese",
+        "count": 1
+      },
+      {
+        "item": "cnc:pasta",
+        "count": 2
+      },
+      {
+        "item": "minecraft:bowl",
+        "count": 1
+      }
+    ],
+    "result": [
+      { "item": "cnc:mac_n_cheese", "count": 1 }
+    ]
+  }
+}

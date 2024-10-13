@@ -1,4 +1,4 @@
-TODO: Add Weapons add-on
+TODO: Add Weapons add-on: Bone sword? Rebalance armor stats
 
 IDEAS: See Bottom for Add-Ons Info
 
@@ -129,7 +129,13 @@ Bark given when skinning tree
 
 
 
-Foods+ Additions - WIP
+Creatures & Cooks - WIP
+
+New Mobs!
+-----------
+None yet...
+
+Food Rebalanced!
 ----------------
 Food Eat time based on Nutrition Value
 1-3: 0.9s
@@ -166,21 +172,21 @@ Sandwich
   Recipe:
     Cooked Chicken & 2x bread & cheese & lettuce
 
-Spaghetti & Meatballs
-  Recipe:
-    Cooked Beef & 2x Pasta & 2x Tomato
-
 Chicken Pasta 
   Recipe:
     Cooked Chicken & 2x Pasta & 2x Tomato
 
 Mac n' Cheese
   Recipe:
-    1x Cheese 2x pasta
+    1x Cheese 2x pasta & 1x Bowl
 
 Beef or Chicken Tacos:
-  Recipe Cooked Beeft or Cooked Chicken & 1x lettuce & 1x cheese & 2x wheat & 1x egg
+  Recipe Cooked Beef or Cooked Chicken & 1x lettuce & 1x cheese & 2x wheat & 1x egg
 --- START TODO
+Spaghetti & Meatballs
+  Recipe:
+    Cooked Beef & 2x Pasta & 2x Tomato
+
 Pizza
   Recipe:
     1x Cheese & 1x Wheat & 1x Tomato & 1x Cooked Beef or Cooked Porkchop
@@ -203,7 +209,7 @@ Omlette:
 
 Salad
   Recipe:
-    2x Lettuce 1x Wheat & 1x Tomato & 1x Cheese
+    2x Lettuce 1x Wheat & 1x Tomato & 1x Cheese, 1x Carrot, 1x Bowl
 
 Apple Pie
   Recipe:
@@ -228,13 +234,14 @@ Donut:
 Macaron
 
 Cream Puff
+
+Muffin
 --- END TODO
 
 
 Cream
   Recipe:
-    1x milk & 1x bowl = 4 cream
-
+    1x milk & 1x Egg & 1x bowl = 2 cream
 
 Cheese
   Recipe:
@@ -256,7 +263,7 @@ Tomato - New Crop!
 Exotic Foods
 
 Chorus Fruit Soup
-  Special Effect: Gives you Nausea for 3 secs, but also resistance I and regeneration I for 3 secs
+  Special Effect: Gives you Nausea for 3 secs, but also resistance I and regeneration I for 5 secs
   Recipe:
     3x Chorus Fruit & 1x bowl
 
@@ -269,5 +276,17 @@ Glow Berry Stew
   Special Effect: Night Vision for 30 Seconds, but slowness for 15 seconds
   Recipe:
     3x Glow Berry & 1x bowl
+  
+Rotten Flesh Burger
+  Special Effect: Hunger I for 20 seconds & strength I for 10 seconds
+  Recipe: 1x Rotten Flesh & 1x bowl
+
+Spider Eye Soup
+  Special Effect: Poison for 10 seconds, but speed I for 20 seconds
+  Recipe: 2x Spider Eye & 1x Bowl & 1x Egg
+
+Ender Pearl Sandwich
+  Special Effect: Teleport some amount of blocks or if possible no ender pearl damage for a few seconds
+  Recipe: 1x Ender Pearl & 2x Bread
 
 Food From New Animals:

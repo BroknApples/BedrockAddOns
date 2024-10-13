@@ -1,0 +1,28 @@
+{
+  "format_version": "1.17.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cnc:hotdog_rec_2"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " C ",
+      "BPB"
+    ], 
+    
+    "key": {
+      "P": {
+        "item": "minecraft:cooked_beef"
+      },
+      "B": {
+        "item": "minecraft:bread"
+      },
+      "C": {
+        "item": "cnc:cheese"
+      }
+    },
+    "result": [
+      { "item": "cnc:hotdog", "count": 1 }
+    ]
+  }
+}

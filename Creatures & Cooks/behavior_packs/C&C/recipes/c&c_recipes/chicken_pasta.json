@@ -1,0 +1,28 @@
+{
+  "format_version": "1.17.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cnc:chicken_pasta_rec_1"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "T T",
+      "APA"
+    ], 
+    
+    "key": {
+      "P": {
+        "item": "minecraft:cooked_chicken"
+      },
+      "A": {
+        "item": "cnc:pasta"
+      },
+      "T": {
+        "item": "cnc:tomato"
+      }
+    },
+    "result": [
+      { "item": "cnc:chicken_pasta", "count": 1 }
+    ]
+  }
+}

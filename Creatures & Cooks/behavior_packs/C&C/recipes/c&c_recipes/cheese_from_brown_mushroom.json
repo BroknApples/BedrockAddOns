@@ -18,7 +18,7 @@
       }
     ],
     "result": [
-      { "item": "cnc:cheese", "count": 4 },
+      { "item": "cnc:cheese", "count": 3 },
       { "item": "minecraft:bucket", "count": 1, "data": 0 }
     ]
   }

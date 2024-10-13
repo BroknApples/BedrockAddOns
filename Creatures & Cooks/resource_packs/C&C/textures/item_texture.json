@@ -29,7 +29,7 @@
       "textures": "textures/items/mac_n_cheese"
     },
     "cnc_sandwich": {
-      "textures": "textures/items/cheese"
+      "textures": "textures/items/sandwich"
     },
     "cnc_taco": {
       "textures": "textures/items/taco"

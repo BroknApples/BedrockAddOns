@@ -1,10 +1,10 @@
 {
-  "format_version": "1.21.10",
+  "format_version": "1.20.50",
   "minecraft:item": {
     "description": {
       "identifier": "cnc:butter",
       "menu_category": {
-        "category": "Nature"
+        "category": "nature"
       }
     },
 
@@ -13,9 +13,11 @@
         "value": "Butter"
       },
       "minecraft:icon": "cnc_butter",
-      "minecraft:tags": [
-        "is_food"
-      ],
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_food"
+        ]
+      },
       "minecraft:use_animation": "eat",
       "minecraft:use_modifiers": {
         "use_duration": 0.9,

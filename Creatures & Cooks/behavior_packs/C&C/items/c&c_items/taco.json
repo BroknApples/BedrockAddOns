@@ -2,7 +2,7 @@
   "format_version": "1.20.50",
   "minecraft:item": {
     "description": {
-      "identifier": "cnc:sandwich",
+      "identifier": "cnc:taco",
       "menu_category": {
         "category": "nature"
       }
@@ -10,14 +10,14 @@
 
     "components": {
       "minecraft:display_name": {
-        "value": "Sandwich"
+        "value": "Taco"
       },
+      "minecraft:icon": "cnc_taco",
       "minecraft:tags": {
         "tags": [
           "minecraft:is_food"
         ]
       },
-      "minecraft:icon": "cnc_sandwich",
       "minecraft:use_animation": "eat",
       "minecraft:use_modifiers": {
         "use_duration": 2.8,

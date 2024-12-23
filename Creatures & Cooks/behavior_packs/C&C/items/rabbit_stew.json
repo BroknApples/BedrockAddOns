@@ -6,7 +6,7 @@
     },
 
     "components": {
-      "minecraft:use_duration": 42,
+      "minecraft:use_duration": 32,
       "minecraft:max_stack_size": 16,
   
       "minecraft:food": {

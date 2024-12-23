@@ -1,0 +1,11 @@
+{
+    "num_mip_levels": 4,
+    "padding": 8,
+    "resource_pack_name": "Creatures & Cooks",
+    "texture_name": "atlas.terrain",
+    "texture_data": {
+        "cnc_tomato_stage3": {
+            "textures": "textures/blocks/tomato_stage3"
+        }
+    }
+}

@@ -1,0 +1,162 @@
+{
+    "format_version": "1.21.20",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cnc:tomato_crop",
+            "menu_category": {
+                "category": "none"
+            },
+            "states": {
+                "cnc:growth": {
+                    "values": { "min": 0, "max": 7 }
+                }
+            }
+        },
+        "components": {
+            "minecraft:collision_box": false,
+            "minecraft:geometry": "geometry.crop",
+            "minecraft:light_dampening": 0,
+
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [ "up" ],
+                        "block_filter": [ "minecraft:farmland" ]
+                    }
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('cnc:growth') < 7",
+                "components": {
+                    // Loot table for when the crop is not fully grown. Vanilla crops only drop seeds when young.
+                    "minecraft:loot": "loot_tables/blocks/tomato_young.json",
+                    // Trigger growth on random ticks and when interacting with bone meal (only active when the block isn't fully grown).
+                    "minecraft:custom_components": ["cnc:custom_crop_growth"]
+                }
+            },
+            {
+                "condition": "q.block_state('cnc:growth') >= 0",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cnc_tomato_stage3",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cnc:growth') == 0",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [-8, 0, -8],
+                        "size": [16, 1.6, 16]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cnc:growth') == 1",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [-8, 0, -8],
+                        "size": [16, 3.2, 16]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cnc:growth') >= 2",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cnc_tomato_stage3",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cnc:growth') == 2",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [-8, 0, -8],
+                        "size": [16, 4.8, 16]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cnc:growth') == 3",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [-8, 0, -8],
+                        "size": [16, 6.4, 16]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cnc:growth') >= 4",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cnc_tomato_stage3",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cnc:growth') == 4",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [-8, 0, -8],
+                        "size": [16, 8, 16]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cnc:growth') == 5",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [-8, 0, -8],
+                        "size": [16, 9.6, 16]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cnc:growth') == 6",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [-8, 0, -8],
+                        "size": [16, 11.2, 16]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cnc:growth') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cnc_tomato_stage3",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [-8, 0, -8],
+                        "size": [16, 12.8, 16]
+                    },
+                    // Drop different loot when fully grown
+                    "minecraft:loot": "loot_tables/blocks/tomato_mature.json"
+                }
+            }
+        ]
+    }
+}

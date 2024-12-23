@@ -1,9 +1,14 @@
 {
   "resource_pack_name": "Creatures & Cooks",
   "texture_name": "atlas.items",
-
-  // ******************** Food ******************** //
   "texture_data": {
+    // ******************** Seeds ******************* //
+    "cnc_tomato_seeds": {
+      "textures": "textures/items/tomato"
+    },
+  
+  
+    // ******************** Food ******************** //
     "cnc_butter": {
       "textures": "textures/items/butter"
     },
@@ -27,6 +32,9 @@
     },
     "cnc_mac_n_cheese": {
       "textures": "textures/items/mac_n_cheese"
+    },
+    "cnc_pasta": {
+      "textures": "textures/items/pasta"
     },
     "cnc_sandwich": {
       "textures": "textures/items/sandwich"

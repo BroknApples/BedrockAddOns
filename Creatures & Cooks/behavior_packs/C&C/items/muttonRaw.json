@@ -6,7 +6,7 @@
     },
 
     "components": {
-      "minecraft:use_duration": 18,
+      "minecraft:use_duration": 32,
 
       "minecraft:food": {
         "nutrition": 2,

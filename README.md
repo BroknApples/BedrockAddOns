@@ -5,34 +5,6 @@ IDEAS: See Bottom for Add-Ons Info
 ND = Not Done
 D = Done
 --------------------------------------------------------------------------------------------------------
-FOOD
------------------------------------------------
------------
-Blender --- functional
-cutting board (wrapper on an item frame)
-kitchen knife = always has looting on it or something
-placeable bowls and plates (cant put food on them probably, but try to make it happen!)
------------
-Use Duration Levels Based on Nutrition (Based in halves of the vanilla speed to keep existing sound more consistent):
------------
-1-3: 0.9s                   |    18
-4-6: 1.6s                   |    32
-7-10: 2.1s                  |    42
-11+: 2.8s                   |    56
-Exception: Snack items that restore lots of hunger for hp, but no saturation
-Movement Modifier: 0.35
------------
-Saturation based on types:
------------
-Raw meat: 0.6 | raw fish & rabbit 0.3 = small  
-Raw veggies: 0.6          |   poor         0.1
-Cooked meat 0.6          |   low          0.3
-Veggie stews: 0.6        |   normal       0.6
-Meat stews: 0.8          |   good         0.8
-Full cooked meals: 0.8    |   max          1.0
-Bread like foods: 8       |   supernatural 1.4
------------
-----------------------------------------------------------
 MOBS
 ----------------------------------------------------------
 New Friendly/Neutral Mobs TODO (Do spawn chances well, don't make them spawn too much, especially birds and critters),
@@ -137,11 +109,7 @@ None yet...
 
 Food Rebalanced!
 ----------------
-Food Eat time based on Nutrition Value
-1-3: 0.9s
-4-6: 1.6s
-7-10: 2.1s
-11+: 2.8s
+Lower Consume Time on Some Foods
 
 Rebalanced most vanilla Food Items:
 Ex:
@@ -191,6 +159,10 @@ Pizza
   Recipe:
     1x Cheese & 1x Wheat & 1x Tomato & 1x Cooked Beef or Cooked Porkchop
 
+Pumpkin Bread
+  Recipe:
+    1x Pumpkin & 1x Sugar & 1x Wheat
+
 Mutton Stew
   Recipe:
     Carrot & Cooked Mutton & Potato & Bowl
@@ -209,15 +181,23 @@ Omlette:
 
 Salad
   Recipe:
-    2x Lettuce 1x Wheat & 1x Tomato & 1x Cheese, 1x Carrot, 1x Bowl
+    2x Lettuce & 1x Tomato & 1x Cheese, 1x Carrot, 1x Bowl
+
+Fruit Salad
+  Recipe:
+    1x Sweet Berries or 1x Glow Berries & 1x Melon & 1x Bowl
 
 Apple Pie
   Recipe:
-    1x sugar & 1x Wheat & 1x apple & 1x egg
+    1x sugar & 1x Apple & 1x egg
 
 Sweet Potato Pie
   Recipe:
-    1x sugar & 1x Wheat & 1x apple & 1x egg
+    1x sugar & 1x Potato & 1x egg
+
+Melon Pie
+  Recipe:
+    1x sugar & 1x Melon & 1x egg
 
 Pancakes
   Recipe:
@@ -229,13 +209,9 @@ Ice Cream:
   Recipe:
     2x Cream & x Sugar & 1x Cocoa Beans
   
-Donut:
-
-Macaron
-
-Cream Puff
-
-Muffin
+Donut
+  Recipe:
+    2x Wheat & 1x Sugar
 --- END TODO
 
 
